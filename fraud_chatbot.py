@@ -149,11 +149,11 @@ def chat(): # Main chatbot loop for user interaction
 
             again = input("\nDo you want to check another transaction? (y/n): ").strip().lower()
             if again != "y":
-                print("Goodbye! 👋")
+                print("Goodbye! ")
                 break
 
         except KeyboardInterrupt:
-            print("\nInterrupted. Goodbye! 👋")
+            print("\nInterrupted. Goodbye! ")
             break
         except Exception as e:
             print(f"\nSomething went wrong: {e}")
